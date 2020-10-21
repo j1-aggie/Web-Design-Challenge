@@ -1,0 +1,51 @@
+
+SQL Queries to reduce the file size of the csv. 
+
+DROP table if exists power_lift_data
+
+create table power_lift_data(
+	Name VARCHAR(1000) NOT NULL,
+	Sex VARCHAR(1000),
+	Event VARCHAR(1000),
+	Equipment VARCHAR(1000),
+	Age VARCHAR(1000),
+	AgeClass VARCHAR(1000), 
+	BirthYearClass VARCHAR(1000),
+	Division VARCHAR(1000),
+	BodyweightKg VARCHAR(1000),
+	WeightClassKg VARCHAR(1000),
+	Squat1Kg VARCHAR(1000),
+	Squat2Kg VARCHAR(1000),
+	Squat3Kg VARCHAR(1000),
+	Squat4Kg VARCHAR(1000),
+	Best3SquatKg VARCHAR(1000),
+	Bench1Kg VARCHAR(1000),
+	Bench2Kg VARCHAR(1000),
+	Bench3Kg VARCHAR(1000),
+	Bench4Kg VARCHAR(1000),
+	Best3BenchKg VARCHAR(1000),
+	Deadlift1Kg VARCHAR(1000),
+	Deadlift2Kg VARCHAR(1000),
+	Deadlift3Kg VARCHAR(1000),
+	Deadlift4Kg VARCHAR(1000),
+	Best3DeadliftKg VARCHAR(1000),
+	TotalKg VARCHAR(1000),
+	Place VARCHAR(1000),
+	Dots VARCHAR(1000),
+	Wilks VARCHAR(1000),
+	Glossbrenner VARCHAR(1000),
+	Goodlift VARCHAR(1000),
+	Tested VARCHAR(1000),
+	Country VARCHAR(1000),
+	Federation VARCHAR(1000),
+	ParentFederation VARCHAR(1000),
+	Date VARCHAR(1000), 
+	MeetCountry VARCHAR(1000),
+	MeetState VARCHAR(1000),
+	MeetTown VARCHAR(1000),
+	MeetName VARCHAR(1000)
+);
+
+
+SELECT * FROM power_lift_data
+WHERE date between '2018-01-01' and '2020-11-11'
