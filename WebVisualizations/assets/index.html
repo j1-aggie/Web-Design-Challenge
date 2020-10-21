@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Power Lifting Analysis</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">POWER LIFTER</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    
+                    MENU
+                
+                    <i class="fas fa-bars"></i>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">    
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Plots
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="Age.html">Age Histogram</a>
+                                        <a class="dropdown-item" href="Equipment By Gender.html">Equipment By Gender</a>
+                                        <a class="dropdown-item" href="Age vs Weight.html">Age Vs Weight</a>
+                                        <a class="dropdown-item" href="Equipment Use.html">Equipment Use</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#comparison">Comparison</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="Table.html">Data</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#contact">Contact</a>
+                                </li>
+                            </ul>
+                    <div    
+                
+                    
+                
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Power Lifters</h1>
+                    <h2 class="text-white-50 mx-auto mt-2 mb-5">Data is everywhere, even a Powerlifting meet can yield tons of data. For this homework, I chose to go the bonus route and pick my own
+                        data set from the openpowerlifting org.  Due to the enormous amount of data available, I decided to only present the last two years of data in this project.  My findings are 
+                        presented throughout this Site. </h2>
+
+                <!--visualization part of the page-->            
+                <div class="col-md-4">
+                    <div class="col-md-12">
+                        <h3>PLOTS</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-3 col-md-6">
+                                <a href="Age.html"><img src="assets/img/age.png" width="100%" alt="Age">
+                                </a>
+                            </div>
+                            
+                            <div class="col-3 col-md-6">
+                                <a href="Equipment By Gender.html"><img class="pic" src="assets/img/violin.png" width="100%" alt="Equipment By Gender"></a>
+                            </div>
+                        
+                            <div class="col-3 col-md-6">
+                                <a href="Age vs Weight.html"><img src="assets/img/boxplot.png" width="100%" alt="Age vs Weight"></a>
+                                
+                            </div>
+                            
+                            <div class="col-3 col-md-6">
+                                
+                                <a href="Equipment Use.html"><img src="assets/img/equipment_use2.png" width="100%" alt="Equipment Use"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>                 
+                </div>
+            </div>
+        
+        </header>
+        
+        <!-- Comparison-->
+        <section class="comparison-section bg-light" id="comparison">
+            <div class="container">
+                <!-- Comparison One-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/age.png" alt="" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Distribution of Age</h4>
+                                    <p class="mb-0 text-white-50">The histogram shows the drastic drop in contestants as you leave the 20-30 age range.</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Comparison Two-->
+                <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/equipment_use2.png" alt="" /></div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left">
+                                    <h4 class="text-white">Equipment Use</h4>
+                                    <p class="mb-0 text-white-50">The bar graph represents total weight lifted compared to bodyweight and then catergorized by equipment used at the meets.</p>
+                                    <hr class="d-none d-lg-block mb-0 ml-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Comparison Three-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/violin.png" alt="" /></div>
+                    <div class="col-lg-6 order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Equipment Use By Gender</h4>
+                                    <p class="mb-0 text-white-50">The violin plot represents the equipment use by gender and weight.</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Comparison Four-->
+                <div class="row justify-content-center no-gutters">
+                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/boxplot.png" alt="" /></div>
+                    <div class="col-lg-6" order-lg-first">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-right">
+                                    <h4 class="text-white">Age VS Weight</h4>
+                                    <p class="mb-0 text-white-50">The box plot presented shows the age ranges for the competitors over the last two years.  The dots outside the boxes represent 
+                                    outliers for age ranges 10 - 60.</p>
+                                    <hr class="d-none d-lg-block mb-0 mr-0" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+        <!-- Contact-->
+        <section class="contact-section bg-black"id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Address</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">25610 Kearsley Drive, Katy, TX</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-envelope text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Email</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50"><a href="#!">j1-aggie@hotmail.com</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-3 mb-md-0">
+                        <div class="card py-4 h-100">
+                            <div class="card-body text-center">
+                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <hr class="my-4" />
+                                <div class="small text-black-50">+1 (713) 501-5143</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+                    <a class="mx-2" href="https://github.com/j1-aggie"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright © Jeremy Jones 2020</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

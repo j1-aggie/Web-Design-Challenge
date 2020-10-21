@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Equipment Use</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <link href="css/styles.css" rel="stylesheet" />
+</head>
+<body>
+    <!--Navbar adjustments-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand text-red" href="index.html">Power Lifter</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="Age.html">Age Histogram</a>
+                            <a class="dropdown-item" href="Equipment By Gender.html">Equipment By Gender</a>
+                            <a class="dropdown-item" href="Age vs Weight.html">Age Vs Weight</a>
+                            <a class="dropdown-item" href="Equipment Use.html">Equipment Use</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Comparison</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Table.html">Data</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container content">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12">
+                    <h3>Equipment Use</h3>
+                    <hr>
+                    
+                    <img src="assets/img/equipment_use2.png" width="100%" alt="Equipment Use">
+                    
+                    <br>
+                    <p> A bar chart or bar graph is a chart or graph that presents categorical data with rectangular bars with heights or lengths proportional to the values that they represent. The bars can be plotted vertically or horizontally.
+
+                        A bar graph shows comparisons among discrete categories. One axis of the chart shows the specific categories being compared, and the other axis represents a measured value.  
+                    
+                        This particular bar graph shows the total bodyweight compared to total lift weight and categorizing it by the equipment used during the meet. </p>
+                </div>
+            </div>
+<!--visualization part of the page-->            
+            <div class="col-md-4">
+                <div class="col-md-12">
+                    <h3>Visualizations</h3>
+                    <hr>
+                    <div class="row">
+                        <div class="col-3 col-md-6">
+                            <a href="Age.html"><img src="assets/img/age.png" width="100%" alt="Age">
+                            </a>
+                        </div>
+                        
+                        <div class="col-3 col-md-6">
+                            <a href="Equipment By Gender.html"><img class="pic" src="assets/img/violin.png" width="100%" alt="Equipment By Gender"></a>
+                        </div>
+                    
+                        <div class="col-3 col-md-6">
+                            <a href="Age vs Weight.html"><img src="assets/img/boxplot.png" width="100%" alt="Age vs Weight"></a>
+                            
+                        </div>
+                        
+                        <div class="col-3 col-md-6">
+                            
+                            <a href="Equipment Use.html"><img src="assets/img/equipment_use2.png" width="100%" alt="Equipment Use"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>    
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer font-small footer-dark">
+        <div class="footer-copyright text-center py-3">© Copyright Jeremy M Jones 2020
+        </div>      
+    </footer>
+</body>
+</html>
