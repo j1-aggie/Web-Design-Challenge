@@ -13,7 +13,7 @@ Data is more powerful when we share it with others. This repository is a visuali
 
 ## <a name="analysis_project"></a>Link to Data Analysis Project
 
-For more information about the data analysis and visualization project I completed, you can go [here](https://github.com/j1-aggie/Web_Design_Challeng), which will take you to the github repository for the project.  Inside the repo you will find all the visuals and working files associated with this project. 
+For more information about the data analysis and visualization project I completed, you can go [here](https://github.com/j1-aggie/Web-Design-Challenge), which will take you to the github repository for the project.  Inside the repo you will find all the visuals and working files associated with this project. 
 
 ## <a name="website"></a>Visualization Dashboard Website
 
