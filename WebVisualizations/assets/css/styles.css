@@ -6096,7 +6096,7 @@ button.bg-black:focus {
 
 .d-table-row {
   display: table-row !important;
-  display: flex-inline;
+  
 }
 
 .d-table-cell {
