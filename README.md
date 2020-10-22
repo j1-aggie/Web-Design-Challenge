@@ -17,7 +17,7 @@ For more information about the data analysis and visualization project I complet
 
 ## <a name="website"></a>Visualization Dashboard Website
 
-To create the visualization dashboard website, I used HTML, CSS, and Bootstrap. The website is currently deployed to GitHub Pages. The website works on a variety of screen sizes, from mobile to desktop. To check out the visualization dashboard website (it's gray theme), you can go [here](https://j1-aggie.github.io/Web-Design-Challenge/powerlifting).
+To create the visualization dashboard website, I used HTML, CSS, and Bootstrap. The website is currently deployed to GitHub Pages. The website works on a variety of screen sizes, from mobile to desktop. To check out the visualization dashboard website (it's gray theme), you can go [here](https://j1-aggie.github.io/Web_Design_Challenge/).
 
 ## <a name="requirements"></a>Requirements
 
