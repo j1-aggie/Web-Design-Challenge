@@ -9,7 +9,7 @@
 
 ## <a name="background"></a>Background
 
-Data is more powerful when we share it with others. This repository is a visualization dashboard website using visualizations I created using the most recent data from the power lifting orginization website to uncover patterns, observations, and insights about power lifting meets from years past.  The overall dataset was very large, so in order to work with managable data, I narrowed my focus on data for meets that happened in 2019 to October 2020 timeframe.   
+Data is more powerful when we share it with others. This Site is a dashboard website using visualizations I created using the most recent data from the power lifting orginization website to uncover patterns, observations, and insights about power lifting meets from years past.  The overall dataset was very large, so in order to work with managable data, I narrowed my focus on data for meets that happened in 2019 to October 2020 timeframe.   
 
 ## <a name="analysis_project"></a>Link to Data Analysis Project
 
