@@ -36,7 +36,7 @@ The website consists of the following:
     * The grid is 2 visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
 * A [data] page that:
   * Displays a responsive table containing the data used in the visualizations.
-  * The data table on this page came from exporting the [.csv file]as HTML using the pandas ```to_html``` method, which generates a HTML table from a pandas dataframe. The code for this conversion is in a jupyter notebook file located in the repo.
+  * The data table on this page came from exporting the [.csv file] as HTML using the pandas ```to_html``` method, which generates a HTML table from a pandas dataframe. The code for this conversion is in a jupyter notebook file located in the repo.
   * The table is a bootstrap responsive table component.
 * A navigation menu that:
   * Has the name of the site on the left of the nav, which allows users to return to the landing page from any page.
