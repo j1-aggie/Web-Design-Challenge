@@ -1680,6 +1680,7 @@ pre code {
   }
 }
 .table {
+  
   width: 100%;
   margin-bottom: 1rem;
   color: #212529;
@@ -1958,7 +1959,7 @@ pre code {
 
 @media (max-width: 575.98px) {
   .table-responsive-sm {
-    display: block;
+    display: flex;
     width: 100%;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
@@ -6095,6 +6096,7 @@ button.bg-black:focus {
 
 .d-table-row {
   display: table-row !important;
+  display: flex-inline;
 }
 
 .d-table-cell {
@@ -9743,30 +9745,30 @@ h3 {
     border: 1px solid #000000;
   }
 
-  .Data Table {
+  .table {
     border-collapse: collapse !important;
   }
-  .Data Table td,
-.Data table th {
+  .table td,
+.table th {
     background-color: #fff !important;
   }
 
-  .Data Table-bordered th,
-.Data Table-bordered td {
+  .table-bordered th,
+.table-bordered td {
     border: 1px solid #dee2e6 !important;
   }
 
-  .Data Table-dark {
+  .table-dark {
     color: inherit;
   }
-  .Data Table-dark th,
-.Data Table-dark td,
-.Data Table-dark thead th,
-.Data Table-dark tbody + tbody {
+  .table-dark th,
+.table-dark td,
+.table-dark thead th,
+.table-dark tbody + tbody {
     border-color: #dee2e6;
   }
 
-  .Data Table .thead-dark th {
+  .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6;
   }
