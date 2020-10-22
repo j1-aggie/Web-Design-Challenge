@@ -9,15 +9,15 @@
 
 ## <a name="background"></a>Background
 
-Data is more powerful when we share it with others. This repository is a visualization dashboard website using visualizations I created in a past project to uncover patterns, observations, and insights about power lifting meets from years past. 
+Data is more powerful when we share it with others. This repository is a visualization dashboard website using visualizations I created using the most recent data from the power lifting orginization website to uncover patterns, observations, and insights about power lifting meets from years past.  The overall dataset was very large, so in order to work with managable data, I narrowed my focus on data for meets that happened in 2019 to October 2020 timeframe.   
 
 ## <a name="analysis_project"></a>Link to Data Analysis Project
 
-For more information about the data analysis and visualization project I completed, you can go [here](https://github.com/j1-aggie/Web_Design_Challeng), which will take you to the github repository for the project.
+For more information about the data analysis and visualization project I completed, you can go [here](https://github.com/j1-aggie/Web-Design-Challenge), which will take you to the github repository for the project.  Inside the repo you will find all the visuals and working files associated with this project. 
 
 ## <a name="website"></a>Visualization Dashboard Website
 
-To create the visualization dashboard website, I used HTML, CSS, and Bootstrap. The website is currently deployed to GitHub Pages. The website works on a variety of screen sizes, from mobile to desktop. To check out the visualization dashboard website (it's dark theme), you can go [here](https://j1-aggie.github.io/Web-Design-Challenge/#/powerlifting).
+To create the visualization dashboard website, I used HTML, CSS, and Bootstrap. The website is currently deployed to GitHub Pages. The website works on a variety of screen sizes, from mobile to desktop. To check out the visualization dashboard website (it's gray theme), you can go [here](https://j1-aggie.github.io/Web-Design-Challenge/powerlifting).
 
 ## <a name="requirements"></a>Requirements
 
